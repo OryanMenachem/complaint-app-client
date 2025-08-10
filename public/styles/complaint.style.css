@@ -1,102 +1,42 @@
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "Arial";
   background: #e5e7ff;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
 }
 
 main {
-  display: inline-block;
-  vertical-align: top;
-  max-width: 450px;
-  width: 100%;
-  max-height: 600px;
-  height: 100vh; /* גובה מלא של המסך */
-
-  margin: 2vh 1.5vw; /* רווח מסביב לכרטיס */
-  padding: 2rem; /* ריווח פנימי */
-  background: #ffffff; /* כרטיס לבן */
-  border-radius: 20px; /* קצוות מעוגלות */
-  box-shadow: 0 8px 24px rgba(20, 30, 40, 0.08); /* צל רך לנפח */
-  border: 1px solid rgba(16, 20, 30, 0.04); /* גבול עדין */
-  text-align: left;
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  border-radius: 15px;
+  margin: 20px auto;
 }
 
-h1 {
-  color: #333;
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
+/* h1 {
 
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-}
+} */
 
-label {
-  font-size: 1rem;
-  font-weight: 600;
-  color: #444;
-  margin-bottom: 8px;
-  text-align: left;
-}
+/* form {
 
-select,
-textarea {
-  width: 100%;
-  padding: 10px 12px;
-  border-radius: 10px;
-  border: 1px solid #bbb;
-  font-size: 1rem;
-  outline: none;
-  margin-bottom: 25px;
-  background: #fff;
-  resize: none;
-  transition: border-color 0.3s ease;
-}
+} */
 
-select:focus,
-textarea:focus {
-  border-color: #7a8cff;
-}
+/* label {
 
+} */
+
+/* 
 #selectCategory {
-  color: gray;
-}
+
+} */
 
 button {
-  background-color: #7a8cff;
-  color: white;
-  border: none;
-  border-radius: 25px;
-  padding: 14px 0;
-  font-size: 1.1rem;
-  font-weight: 600;
-  cursor: pointer;
-  width: 100%;
-  transition: background-color 0.3s ease;
+  background: #e5e7ff;
+  margin: 10px;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  margin: 10px;
 }
 
 button:hover {
-  background-color: #5d6ddb;
-}
-
-button:active {
-  background-color: #4b55b5;
-}
-
-@media (max-width: 500px) {
-  main {
-    padding: 25px 20px;
-  }
-
-  h1 {
-    font-size: 1.6rem;
-    margin-bottom: 20px;
-  }
+  background: #949be2;
 }
