@@ -7,11 +7,19 @@
     <title>Admin Portal</title>
   </head>
   <body>
-    <h1>Admin Portal</h1>
+    <main>
+      <h1>Admin Portal</h1>
 
-    <p>Welcome to the admin portal.</p>
-    <a href="http://localhost:3000/complaints">
-      <button>View Complaints</button>
-    </a>
+      <p>Welcome to the admin portal.</p>
+      <a href="http://localhost:3000/complaints">
+        <button>View Complaints</button>
+      </a>
+
+      <form action="http://localhost:3000/complaints/del" method="post">
+        <label for="complaintId">Delete a Complaint:</label>
+        <input type="text" id="complaintId" name="complaintId" required />
+        <button type="submit">Submit</button>
+      </form>
+    </main>
   </body>
 </html>
