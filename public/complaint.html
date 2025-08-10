@@ -2,10 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles/complaint.style.css" />
+    <title>Submit Anonymous Complaint</title>
   </head>
   <body>
-    <h1>Hello</h1>
+    <main>
+      <h1>Submit Anonymous Complaint</h1>
+      <form action="http://localhost:3000/complaints/submit" method="post">
+        <label for="category">Category:</label>
+        <select id="category" name="category" required>
+          <option value="">Select Category</option>
+          <option value="food">Food</option>
+          <option value="equipment">Equipment</option>
+          <option value="orders">Orders</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label for="content">Complaint:</label>
+        <textarea id="content" name="content" rows="6" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
   </body>
 </html>
