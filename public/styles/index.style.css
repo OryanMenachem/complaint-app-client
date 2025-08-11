@@ -1,6 +1,5 @@
 body {
-  font-family: "Arial";
-  background: #e5e7ff;
+  background: #949be2;
 }
 
 main {
@@ -12,7 +11,10 @@ main {
 }
 
 h1 {
-  margin: em;
+  color: #949be2;
+  margin-right: 20px;
+  margin-left: 60px;
+  margin-top: 70px;
 }
 
 h2 {
@@ -24,6 +26,8 @@ img {
   height: 300px;
   width: 290px;
   margin: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 /* a {
@@ -31,12 +35,15 @@ img {
 } */
 
 button {
+  border: #949be2;
+
   background: #e5e7ff;
-  margin: 10px;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 20px;
   width: 100px;
   height: 50px;
   border-radius: 20px;
-  margin: 10px auto;
 }
 
 button:hover {
